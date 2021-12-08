@@ -1,1 +1,6 @@
 main
+	initialisation
+	blink_all
+		blink_on
+		blink_off
+	sequential

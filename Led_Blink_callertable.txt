@@ -1,6 +1,12 @@
 main
-	initialisation
-	blink_all
-		blink_on
-		blink_off
-	sequential
+	entry
+		initialisation
+		blink_all
+			blink_on
+			blink_off
+		sequential
+		a_sequential
+		blink_even
+		blink_odd
+		first_four
+		last_four

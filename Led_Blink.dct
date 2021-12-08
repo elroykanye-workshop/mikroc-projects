@@ -12,6 +12,7 @@ __math_tempb
 __math_tempbd
 __savepclath
 __savestatus
+a_sequential
 add_32x32_fp
 b0
 b1
@@ -22,6 +23,8 @@ b5
 b6
 b7
 blink_all
+blink_even
+blink_odd
 blink_off
 blink_on
 boot16_delay_5ms
@@ -67,8 +70,10 @@ eeie
 eeie_bit
 eeif
 eeif_bit
+entry
 equals_double
 f
+first_four
 fixsign32
 fsr
 fsrptr
@@ -89,6 +94,7 @@ intf
 intf_bit
 irp
 irp_bit
+last_four
 longint2double
 longword2double
 main

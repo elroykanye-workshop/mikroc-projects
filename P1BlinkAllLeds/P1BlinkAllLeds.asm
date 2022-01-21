@@ -12,37 +12,29 @@ L_main0:
 ;P1BlinkAllLeds.c,13 :: 		PORTB = 0b11111111;
 	MOVLW      255
 	MOVWF      PORTB+0
-;P1BlinkAllLeds.c,14 :: 		Delay_ms(500);
-	MOVLW      6
-	MOVWF      R11+0
-	MOVLW      19
+;P1BlinkAllLeds.c,14 :: 		Delay_ms(5);
+	MOVLW      13
 	MOVWF      R12+0
-	MOVLW      173
+	MOVLW      251
 	MOVWF      R13+0
 L_main3:
 	DECFSZ     R13+0, 1
 	GOTO       L_main3
 	DECFSZ     R12+0, 1
 	GOTO       L_main3
-	DECFSZ     R11+0, 1
-	GOTO       L_main3
 	NOP
 	NOP
 ;P1BlinkAllLeds.c,15 :: 		PORTB = 0b00000000;
 	CLRF       PORTB+0
-;P1BlinkAllLeds.c,16 :: 		Delay_ms(500);
-	MOVLW      6
-	MOVWF      R11+0
-	MOVLW      19
+;P1BlinkAllLeds.c,16 :: 		Delay_ms(5);
+	MOVLW      13
 	MOVWF      R12+0
-	MOVLW      173
+	MOVLW      251
 	MOVWF      R13+0
 L_main4:
 	DECFSZ     R13+0, 1
 	GOTO       L_main4
 	DECFSZ     R12+0, 1
-	GOTO       L_main4
-	DECFSZ     R11+0, 1
 	GOTO       L_main4
 	NOP
 	NOP

@@ -4,6 +4,7 @@ const unsigned short hold = 50;
 
 // Declare functions
 
+
 // Main program
 void main() {
      TRISA = 0x1f;

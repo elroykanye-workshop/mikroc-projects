@@ -1,5 +1,5 @@
 // Declaration of global variables
-
+const unsigned short delay = 50;
 // Declaration of functions
 
 // Main program
@@ -9,6 +9,8 @@ void main() {
      
      do {
         PORTB = 0b11111111;
-        Delay_ms(50)
-     }
+        Delay_ms(delay);
+        PORTB = 0b00000000;
+        Delay_ms(delay);
+     } while(1);
 }

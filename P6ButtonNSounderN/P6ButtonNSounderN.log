@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F84A -DL -O11111114 -fo8 -N"C:\Users\elroy\source\GitHub\mikroc-projects\P6ButtonNSounderN\P6ButtonNSounderN.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\elroy\source\GitHub\mikroc-projects\P6ButtonNSounderN\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "P6ButtonNSounderN.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Button.mcl" "__Lib_Sound.mcl"	 
+hint: 0	1139	Available RAM: 52 [bytes], Available ROM: 1024 [bytes]	 
+diagnostics: 0	122	Compilation Started	P6ButtonNSounderN.c
+diagnostics: 37	123	Compiled Successfully	P6ButtonNSounderN.c
+diagnostics: 0	127	All files Compiled in 109 ms	 
+hint: 0	1144	Used RAM (bytes): 19 (37%)  Free RAM (bytes): 33 (63%)	Used RAM (bytes): 19 (37%)  Free RAM (bytes): 33 (63%)
+hint: 0	1144	Used ROM (program words): 911 (89%)  Free ROM (program words): 113 (11%)	Used ROM (program words): 911 (89%)  Free ROM (program words): 113 (11%)
+diagnostics: 0	125	Project Linked Successfully	P6ButtonNSounderN.mcppi
+diagnostics: 0	128	Linked in 32 ms	 
+diagnostics: 0	129	Project 'P6ButtonNSounderN.mcppi' completed: 297 ms	 
+diagnostics: 0	103	Finished successfully: 23 Jan 2022, 03:11:28	P6ButtonNSounderN.mcppi

@@ -1,1 +1,5 @@
 main
+	init
+	gradually_on
+	gradually_off
+	all_twice

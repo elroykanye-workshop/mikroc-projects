@@ -56,8 +56,8 @@ void all_twice() {
 
 // Main Program
 void main() {
+     init();
      do {
-       init();
        gradually_on();
        gradually_off();
        all_twice(); all_twice();

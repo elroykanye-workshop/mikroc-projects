@@ -306,10 +306,10 @@ L_end_all_twice:
 _main:
 
 ;P5FunctionsWithBlinkingLeds.c,58 :: 		void main() {
-;P5FunctionsWithBlinkingLeds.c,59 :: 		do {
-L_main19:
-;P5FunctionsWithBlinkingLeds.c,60 :: 		init();
+;P5FunctionsWithBlinkingLeds.c,59 :: 		init();
 	CALL       _init+0
+;P5FunctionsWithBlinkingLeds.c,60 :: 		do {
+L_main19:
 ;P5FunctionsWithBlinkingLeds.c,61 :: 		gradually_on();
 	CALL       _gradually_on+0
 ;P5FunctionsWithBlinkingLeds.c,62 :: 		gradually_off();

@@ -2,10 +2,10 @@
 hint: 0	1139	Available RAM: 52 [bytes], Available ROM: 1024 [bytes]	 
 diagnostics: 0	122	Compilation Started	P5FunctionsWithBlinkingLeds.c
 diagnostics: 65	123	Compiled Successfully	P5FunctionsWithBlinkingLeds.c
-diagnostics: 0	127	All files Compiled in 94 ms	 
+diagnostics: 0	127	All files Compiled in 93 ms	 
 hint: 0	1144	Used RAM (bytes): 2 (4%)  Free RAM (bytes): 50 (96%)	Used RAM (bytes): 2 (4%)  Free RAM (bytes): 50 (96%)
 hint: 0	1144	Used ROM (program words): 229 (22%)  Free ROM (program words): 795 (78%)	Used ROM (program words): 229 (22%)  Free ROM (program words): 795 (78%)
 diagnostics: 0	125	Project Linked Successfully	P5FunctionsWithBlinkingLeds.mcppi
-diagnostics: 0	128	Linked in 15 ms	 
-diagnostics: 0	129	Project 'P5FunctionsWithBlinkingLeds.mcppi' completed: 265 ms	 
-diagnostics: 0	103	Finished successfully: 23 Jan 2022, 02:12:12	P5FunctionsWithBlinkingLeds.mcppi
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'P5FunctionsWithBlinkingLeds.mcppi' completed: 281 ms	 
+diagnostics: 0	103	Finished successfully: 23 Jan 2022, 02:13:13	P5FunctionsWithBlinkingLeds.mcppi
